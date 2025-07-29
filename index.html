@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Английский за 3 месяца</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__row">
+      <div class="logo">EnglishUp</div>
+      <nav class="nav">
+        <a href="#about">О курсе</a>
+        <a href="#tariffs">Тарифы</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#form" class="btn btn--accent">Записаться</a>
+      </nav>
+      <div class="burger" id="burger">&#9776;</div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero__content">
+      <h1>Выучи английский с нуля до B2 за 3 месяца</h1>
+      <a href="#form" class="btn btn--primary">Записаться</a>
+      <div class="hero__teacher">
+        <img src="assets/teacher.jpg" alt="Преподаватель" />
+        <span>Мария Иванова, автор курса</span>
+      </div>
+    </div>
+    <div class="hero__media">
+      <video src="assets/preview.mp4" controls poster="assets/preview.jpg"></video>
+    </div>
+  </section>
+
+  <section class="reviews" id="reviews">
+    <h2>Отзывы учеников</h2>
+    <div class="reviews__grid">
+      <div class="review-card">
+        <p>“За 3 месяца я начал говорить и понимать! Очень крутой курс.”</p>
+        <span>— Анна, 27 лет</span>
+      </div>
+      <div class="review-card">
+        <p>“Понравилась подача и поддержка в чате. Рекомендую!”</p>
+        <span>— Тимур, 19 лет</span>
+      </div>
+      <div class="review-card">
+        <p>“Много практики, всё по делу. Спасибо за результат!”</p>
+        <span>— Олег, 34 года</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>О курсе</h2>
+    <ul>
+      <li>Обучение онлайн — в удобное время</li>
+      <li>Видеоуроки + практика в чате</li>
+      <li>Темы: грамматика, разговор, аудирование, письмо</li>
+      <li>Уже <b>320+</b> учеников прошли курс</li>
+    </ul>
+  </section>
+
+  <section class="tariffs" id="tariffs">
+    <h2>Тарифы</h2>
+    <div class="tariffs__grid">
+      <div class="tariff-card">
+        <h3>Базовый</h3>
+        <div class="tariff-price">$19</div>
+        <ul>
+          <li>Доступ к урокам</li>
+        </ul>
+        <a href="#form" class="btn btn--primary">Выбрать</a>
+      </div>
+      <div class="tariff-card">
+        <h3>Стандарт</h3>
+        <div class="tariff-price">$39</div>
+        <ul>
+          <li>Уроки + чаты</li>
+        </ul>
+        <a href="#form" class="btn btn--primary">Выбрать</a>
+      </div>
+      <div class="tariff-card">
+        <h3>Премиум</h3>
+        <div class="tariff-price">$69</div>
+        <ul>
+          <li>Всё включено + личные созвоны</li>
+        </ul>
+        <a href="#form" class="btn btn--primary">Выбрать</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="form-section" id="form">
+    <h2>Оставьте заявку</h2>
+    <form class="signup-form">
+      <input type="text" placeholder="Имя" required>
+      <input type="tel" placeholder="Телефон" required>
+      <input type="email" placeholder="Email" required>
+      <button type="submit" class="btn btn--accent">Хочу учиться</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="footer__contacts">
+      <a href="https://t.me/yourtelegram" target="_blank">Telegram</a>
+      <a href="https://instagram.com/yourinsta" target="_blank">Instagram</a>
+    </div>
+    <div class="footer__copy">
+      &copy; 2025 EnglishUp. Все права защищены.
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
